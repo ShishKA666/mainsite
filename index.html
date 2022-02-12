@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tapkov Main</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <main>
+       <div class="text">
+        <h1 id="main-text"></h1>
+        <p id="main-p">Web-Coder</p>
+        <hr>
+        <script src="typed.js"></script>
+        <script>
+           var typed = new Typed('#main-text', {
+               strings: ['ShishKA', 'I code in HTML, CSS, JavaScript', "If you want to order a site, then scroll down. There you will find my contacts." , "ShishKA"],
+               typeSpeed: 50,
+               backSpeed: 40
+           });
+        </script>
+       </div>
+       <div class="strelka">
+           <img src="img/strelka.png" alt="">
+       </div>
+    </main>
+    <div class="contacts">
+        <h1 id="c-text">Contacts</h1>
+        <hr>
+        <a target="_blank" href="https://vk.com/shashlik666x"><img src="img/vk.png" alt=""></a>
+    </div>
+    
+    <script src="three.min.js"></script>
+    <script src="vanta.cells.min.js"></script>
+    
+    <script>
+      VANTA.CELLS({
+      el: "*",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      color1: 0x3f2e59,
+      color2: 0x462e82,
+      size: 0.80,
+      speed: 0.70
+    })
+</script>
+    
+</body>
+
+</html>

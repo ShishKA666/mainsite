@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background: linear-gradient(#1D1D1D, #232323, #4F4F4F);
+    height: 1200px;
+    font-family: 'Mukta', sans-serif;
+}
+
+
+.text{
+    text-align: center;
+    margin-top: 330px;
+}
+
+#main-p{
+    color: white;
+    margin-top: 0px;
+    font-weight: 600;
+}
+
+#main-text{
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    font-size: 54px;
+    margin-bottom: 5px;
+}
+
+hr{
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+.strelka img{
+    width: 75px;
+    transition: 0.3s;
+}
+
+.strelka img:hover{
+    transform: translateY(30px);
+}
+
+.strelka{
+    text-align: center;
+    margin-top: 400px;
+}
+
+.contacts{
+    text-align: center;
+    margin-top: 200px;
+}
+
+.contacts img{
+    width: 50px;
+    margin-top: 50px;
+}
+
+
+#c-text{
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    font-size: 34px;
+    margin-bottom: 5px;
+}
